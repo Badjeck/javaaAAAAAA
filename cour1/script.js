@@ -251,38 +251,141 @@
 
 
 
-myCharacter = 'Luna Lovegood';
+// myCharacter = 'Luna Lovegood';
 
-function useSortingHat(char) {
-  let choice = ''
+// function useSortingHat(char) {
+//   let choice = ''
   
-  switch (char) {
-    case 'Harry Potter':
-      choice = 'Gryffindor';
-    case 'Draco Malfoy':
-      choice = 'Ravenclaw';
-    case 'Luna Lovegood':
-      choice = 'Ravenclaw';
-    default:
-      'Gryffindor'
-  }
-}
+//   switch (char) {
+//     case 'Harry Potter':
+//       choice = 'Gryffindor';
+//     case 'Draco Malfoy':
+//       choice = 'Ravenclaw';
+//     case 'Luna Lovegood':
+//       choice = 'Ravenclaw';
+//     default:
+//       'Gryffindor'
+//   }
+// }
 
-const checkMyGringottsAccount = () =>{
-    myMoney = Math.random() * 100
+// const checkMyGringottsAccount = () =>{
+//     myMoney = Math.random() * 100
 
-    if (myMoney > 0 || myMoney < 30) {
-        return 'Hello Weasley'
-    }else if ( myMoney > 30 ||  myMoney < 75 ) {
-        return `Hey, that's cool` 
-    }else {
-        return `You're reach!`
-    }
-}
+//     if (myMoney > 0 || myMoney < 30) {
+//         return 'Hello Weasley'
+//     }else if ( myMoney > 30 ||  myMoney < 75 ) {
+//         return `Hey, that's cool` 
+//     }else {
+//         return `You're reach!`
+//     }
+// }
 
-myCharacterHouse = useSortingHat()
+// myCharacterHouse = useSortingHat()
 
-isMyCharacterRich = checkMyGringottsAccount()
+// isMyCharacterRich = checkMyGringottsAccount()
+
+
+
+// const MyDivs = 
+// document.getElementsByTagName('div');
+// console.log('MyDivs', MyDivs)
+
+// const MyDivs2 =
+// document. querySelectorAll('div');
+// console.log('Mydivs2', MyDivs2)
+
+// const MyParagraphs =
+// document.getElementsByTagName('secondary-paragraph');
+// const MyParagraphs2 =
+// document.querySelectorAll('.secondary-paragraph');
+
+// const myUniqueEl = document.getElementById('js-unique-el');
+// const myUniqueEl2 = document. querySelector('js-unique-el');
+
+// const MyParagraphsInDivs = document.querySelectorAll('div p');
+
+// const spanPrecededByDivs = document.querySelector('dic + span');
+// console.log('spanPrecededByDivs',spanPrecededByDivs);
+
+// const myDivs = document.getElementsByTagName('div');
+// console.log('myDivs', myDivs);
+
+// const myDivs2 = document.querySelectorAll('div');
+// console.log('myDivs2', myDivs2);
+
+// const myParagraphs = document.getElementsByClassName('secondary-paragraph');
+// const myParagraphs2 = document.querySelectorAll('secondary-paragraph');
+
+// const myUniqueEl = document.getElementById('js-unique-el');
+// const myUniqueEl2 = document.querySelectorAll('#js-unique-el');
+
+// const myParagraphsInDivs = document.querySelectorAll('div p');
+// console.log('myparagraphInDivs', myParagraphsInDivs);
+
+// const spansProceededByDivs = document.querySelector('div + span');
+// console.log('spansProceedByDivs', spansProceededByDivs);
+
+
+
+
+
+
+
+
+// const firstP = document.querySelector('.first-p');
+// firstP.innerText = 'I am the first paragraph';
+// console.log('firstP > text', firstP.innerText);
+
+// const secondP = document.querySelector('.second-p');
+// secondP.innerHTML = '<span>Hello</span>';
+// console.log('secondP html', secondP.innerHTML);
+
+// const myImg = document.querySelector('img');
+// myImg.setAttribute('width', '50%');
+// myImg.setAttribute('height', 'auto');
+
+// firstP.getElementsByClassName.color = 'blue';
+// firstP.getElementsByClassName.fontSize = '1.5rem';
+
+
+// myImg.className = 'my-class';
+// myImg.classList.add('my-class');
+// myImg.classList.remove('some-class');
+
+// const myBody = document.querySelector('body');
+// const newEl = document.createElement('p');
+// newEl.innerText = 'Hello';
+// newEl.style.color = 'red';
+
+// myBody.appendChild(newEl);
+
+// const newEl2 = document.createElement('p');
+// newEl2.innerText = 'HEEEELLLLLOOOOO';
+// newEl2.style.color = 'yellow';
+
+// myBody.removeChild(newEl2);
+
+
+
+
+
+
+
+// const lepoulet = document.querySelector('.p1');
+// lepoulet.innerText = navigator.userAgent
+
+// const ladinde = document.querySelectorAll('.p2');
+// ladinde.innerText = navigator.language
+
+// const lecanard = document.querySelector('.p3');
+// lecanard.innerText = navigator.platform
+
+
+
+
+
+
+
 
 
 
